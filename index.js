@@ -52,7 +52,14 @@ module.exports = {
 
         let fileNames = this._formatFileNames(distFiles);
         let files = this._findFiles(fileNames);
-        this.log(files);
+        this.log('file pairs');
+        this.log(JSON.stringify(files));
+
+        this.log('__dirname');
+        this.log(__dirname);
+
+        this.log('distDir');
+        this.log(distDir);
 
         let uploads = files.map(({ js, map }) => {
           return bugsnagUpload({
