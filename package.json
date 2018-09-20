@@ -24,7 +24,8 @@
   "dependencies": {
     "bugsnag-sourcemaps": "^1.0.4",
     "ember-cli-babel": "^6.16.0",
-    "ember-cli-deploy-plugin": "^0.2.9"
+    "ember-cli-deploy-plugin": "^0.2.9",
+    "rsvp": "^4.8.4"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",
